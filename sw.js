@@ -1,5 +1,5 @@
 // Pawsche Service Worker - Push通知 & オフラインキャッシュ
-const CACHE_NAME = 'pawsche-v3';
+const CACHE_NAME = 'pawsche-v4';
 const NOTIFY_HOUR = 7; // 朝通知時刻
 
 self.addEventListener('install', e => {
